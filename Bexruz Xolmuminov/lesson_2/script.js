@@ -12,12 +12,12 @@ console.log(`Salom mening ismim ${name}. Mening yoshim ${age}da`);//ecmascript 6
 //strings
 
 let s = "Salom, men, JavaScriptni, o'rganayapman";
-console.log(s.length);
+console.log(s.length); // bu uzunligni aniqlab beradi
 console.log(s.toLocaleUpperCase()); //bir xil pastdagi bilan
 console.log(s.toUpperCase()); // bu hammasini bosh harfga o'tkazadi
 console.log(s.substring(0, 5)); // bu kesib oladi
 console.log(s.split(``)); // bu har bir harfni arrayga o'tkazib beradi
-console.log(s.split(" ")); // orasiga probel qo'ysam har bir yozilgan so'zni qirqib beradi
+console.log(s.split(" ")); // orasiga probel qo'ysa har bir yozilgan so'zni qirqib beradi
 console.log(s.split(", ")); // ichida belgidan keyingi har bir elementni olib beradi va bu belgi oynadi ko'rinmaydi
 console.log(s.charAt(3)); // gapdagi indeksi bo'yicha 1 dona harfni kesib beradi
 console.log(s.localeCompare(s)); // to'g'ri yoki noto'g'ri ekanligini bildiradi
